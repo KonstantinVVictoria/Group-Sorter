@@ -90,12 +90,14 @@ export default function Home() {
             }}
           >
             <h3 style={{ marginBottom: "0px" }}>Threshold</h3>
-            <input id="threshold" style={{ width: "20px" }} />
+            <input id="threshold" placeholder="7" style={{ width: "20px" }} />
             <button
-              onClick={() => {
+              onClick={({ target }) => {
+                target.disabled = true;
                 let threshold = document.getElementById("threshold").value;
                 let data = start_sort(parseInt(threshold), current_preference);
                 console.log(data);
+                target.disabled = false;
                 set_groups(data);
                 //console.log(group_listings);
               }}
@@ -128,6 +130,7 @@ export default function Home() {
             {current_groups.is_successful ? "" : current_groups.payload.data}
           </p>
         </div>
+        <p>Try to lower the threshold</p>
         <h1>Groups</h1>
         <div>{current_groups.is_successful ? Group_List : "No Groups"}</div>
       </main>
