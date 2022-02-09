@@ -1,47 +1,4 @@
-const data = `Timestamp,Please provide your name,Please provide your personal email,Please provide your phone number,"On a scale from 1 – 9, how would you rank your experience with computer science?",Please choose your 1st preference,Please choose your 2nd preference,Please choose your 3rd preference
-1/22/2022 19:00:15,,tkpp26@gmail.com,6264897535,1,(General) App Development,Artificial Intelligence,Web Development
-1/27/2022 15:36:58,Riley Hui,rxhui992003@gmail.com,9257869986,1,(General) App Development,Game Development,Data Science
-1/31/2022 17:03:20,Justin Cox,jcox987@insite.4cd.edu,9258196042,1,"Anything, I am trying to get as much exposure as I can to figure it all out",Data Science,Artificial Intelligence
-1/31/2022 17:59:20,Nandini Velinedi ,nandinivelinedi03@gmail.com,5104354820,1,(General) App Development,Mobile App Development,Web Development
-2/1/2022 21:57:02,Jose S Soemarno,soemarnojose@gmail.com,9254905325,1,(General) App Development,Mobile App Development,Web Development
-1/22/2022 16:05:01,Jiwoo Hyun,lobotomy1019@gmail.com,9254460206,2,Mobile App Development,Web Development,Game Development
-1/22/2022 16:52:00,Kushi Kumbogowdana,kushikumbagowdana@gmail.com,9256219019,2,Artificial Intelligence,Web Development,Data Science
-1/22/2022 16:52:00,Pravilhika ,pravalhikak@gmail.com,9253070111,2,Artificial Intelligence,Web Development,Data Science
-1/22/2022 18:57:04,Angie Le,wildhorse8052@gmail.com,9253053182,2,Game Development,(General) App Development,VR
-1/31/2022 17:33:04,Anne Hyunsun Joo,spdlqjdyd0414@naver.com,9258222596,2,Web Development,Artificial Intelligence,Game Development
-2/4/2022 16:46:14,Ardan Giordjie,lifeofardan@gmail.com,9252148655,2,(General) App Development,Artificial Intelligence,Web Development
-2/7/2022 17:43:22,Coline Depagne,coline.depagne@gmail.com,9254287016,2,Data Science,Artificial Intelligence,Game Development
-1/23/2022 16:12:51,Jacob Willemsz,jacobwillemsz101@gmail.com,9254288690,3,(General) App Development,Mobile App Development,Artificial Intelligence
-1/27/2022 17:11:21,Joseph Mamondol,itsjmamondol@gmail.com,9254087040,3,Web Development,Data Science,(General) App Development
-1/28/2022 21:16:18,Anna Doan,anna@davedoan.com,5109289998,3,my experience is super limited to what ik in a classroom :( i’m down to learn though!,my experience is super limited to what ik in a classroom :( i’m down to learn though!,my experience is super limited to what ik in a classroom :( i’m down to learn though!
-1/29/2022 19:05:04,Thomas Yeoh,zyeoh029@insite.4cd.edu,6697997334,3,(General) App Development,Artificial Intelligence,Web Development
-2/4/2022 13:35:37,Thomas Lin,tlin879@insite.4cd.net,9259894416,3,(General) App Development,Web Development,Game Development
-2/6/2022 9:38:01,adrienne fong,adriennekfong@gmail.com,5109991262,3,Web Development,Mobile App Development,Artificial Intelligence
-1/31/2022 17:54:35,Matteo Terrien,matteo.terrien@gmail.com,9192603551,4,Artificial Intelligence,Mobile App Development,(General) App Development
-2/1/2022 0:15:12,Matthew Prado,matthew.f.prado@valkyriepcs.com,9252697163,4,(General) App Development,Data Science,Web Development
-2/6/2022 0:12:28,Anthony,anthonybarnard001@gmail.com,7076557700,4,Web Development,Game Development,(General) App Development
-1/22/2022 15:51:03,Brian Chung,brrc88@gmail.com,9255292978,5,Game Development,(General) App Development,Artificial Intelligence
-1/22/2022 15:54:13,Julie,jackjack170827@gmail.com,6464210047,5,(General) App Development,Data Science,Artificial Intelligence
-1/22/2022 20:07:54,Ashley Alvarez,Ash19641994@gmail.com,9254997128,5,(General) App Development,Web Development,Artificial Intelligence
-1/26/2022 10:08:25,Ibrahim Shoukry,Ibrahim.m.shoukry@gmail.com,3413140266,5,Data Science,Web Development,(General) App Development
-1/29/2022 10:43:44,Charles Qu,charlesqu22@gmail.com,5307606002,5,Data Science,(General) App Development,Artificial Intelligence
-1/31/2022 17:54:11,Ashan Devine,ashandevine@yahoo.com,9258993094,5,Artificial Intelligence,Data Science,Web Development
-1/31/2022 17:58:21,Subrat Tripathi,subrat.tripathi@gmail.com,5105147249,5,(General) App Development,Web Development,Data Science
-1/29/2022 19:31:02,Harshini Thavathiru murugan,harshini.t1234@gmail.com,9253680871,6,Data Science,Artificial Intelligence,(General) App Development
-1/31/2022 12:34:13,Yuheon Joh (John),johyuheon@gmail.com,9257449811,6,Artificial Intelligence,Data Science,Web Development
-1/31/2022 17:53:38,John Chen,johneeeeeeeeee3@gmail.com,9253201788,6,Data Science,Artificial Intelligence,(General) App Development
-1/31/2022 17:56:30,Nicolas Sukardy,whatthegamers0@gmail.com,5109935318,6,Game Development,Web Development,Artificial Intelligence
-1/31/2022 18:07:14,Maddie Ananda,maddieananda@gmail.com,92353258796,6,Game Development,Artificial Intelligence,Mobile App Development
-2/4/2022 13:51:15,Safia Boutaleb,safiaboutalebab@gmail.com,9255755998,6,Mobile App Development,Game Development,(General) App Development
-2/4/2022 23:05:30,Matthew Lim,personal.matthewjlim@gmail.com,9257196872,6,Data Science,Artificial Intelligence,(General) App Development
-2/4/2022 23:31:53,Gabe Uy,randolfuy09@gmail.com,9258090378,6,Artificial Intelligence,Mobile App Development,Mobile App Development
-2/7/2022 10:44:45,Shruti Sengottuvel,shrutisen03@gmail.com,9259980764,6,Web Development,(General) App Development,Artificial Intelligence
-1/23/2022 22:03:41,Wilson Zhu,w.z1654@gmail.com,5108163608,7,(General) App Development,Artificial Intelligence,Mobile App Development
-1/24/2022 18:16:53,Jonathan Saleh,jonathan160720032@gmail.com,9254898004,7,Web Development,Mobile App Development,Artificial Intelligence
-1/31/2022 14:19:10,Camden Beard,cbeard644@insite.4cd.edu,8123205706,7,(General) App Development,Game Development,Artificial Intelligence
-1/31/2022 22:00:23,Brian Leong,gameboy0429@gmail.com,9257868694,7,(General) App Development,Game Development,Data Science
-2/4/2022 13:53:39,Divya Krishnan,divya.krishnan445@gmail.com,9252024926,7,(General) App Development,Artificial Intelligence,Data Science
-1/29/2022 13:41:19,Konstantin Victoria,konstantinvictoria@gmail.com,4158890008,9,Artificial Intelligence,Data Science,Web Development`;
+const data = ``;
 //data prep
 let data_entries = {};
 let preference_groups = {};
